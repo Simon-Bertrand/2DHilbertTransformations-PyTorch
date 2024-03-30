@@ -1,7 +1,7 @@
 from typing import Literal
 import torch
 
-__all__ = ["Hilbert2DTransformationMethod"]
+__all__ = ["HilbertTransformations"]
 
 
 class HilbertTransformations(torch.nn.Module):
